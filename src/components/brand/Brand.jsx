@@ -8,13 +8,13 @@ import shopify from '../../assets/shopify.png'
 const Brand = () => {
     return (
         
-            <div className='md:flex  justify-center gap-9 pt-10'>
-                <img className='h-6' src={google} alt="" />
+            <div className='flex  justify-center md:gap-9 gap-2 pt-2 '>
+                <img className='md:h-6 h-4' src={google} alt="" />
 
-                <img className='h-6' src={slack} alt="" />
-                <img className='h-6' src={atlassion} alt="" />
-                <img className='h-6' src={dropbox} alt="" />
-                <img className='h-6' src={shopify} alt="" />
+                <img className='md:h-6 h-4' src={slack} alt="" />
+                <img className='md:h-6 h-4' src={atlassion} alt="" />
+                <img className='md:h-6 h-4' src={dropbox} alt="" />
+                <img className='md:h-6 h-4' src={shopify} alt="" />
             </div>
 
 

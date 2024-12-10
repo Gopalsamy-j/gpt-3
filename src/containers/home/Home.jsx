@@ -7,7 +7,7 @@ const Home = () => {
   return (
     
     <div className='bg-gradient-to-r from-[#002853] to-[#040C18] ...'>
-      <div className='md:flex max-w-[90%] m-auto'>
+      <div className='md:flex max-w-[90%] m-auto  justify-center'>
         <div className='md:w-[50%] py-20'>
 
           <h2 className='font-extrabold text-[3rem] bg-gradient-to-r from-[#AE67FA] to-[#F49867] ... text-transparent
@@ -17,7 +17,7 @@ const Home = () => {
             everything joy alteration boisterous the attachment.
             Party we years to order allow asked of.</p>
           <div className='items-center'>
-              <input className='bg-[#052D56] w-[28rem] py-4 px-3 outline-none text-[#3D6184] rounded-l-md' type="text" placeholder='Your Email Address' />
+              <input className='bg-[#052D56] md:w-[28rem] w-56 py-4 px-3 outline-none text-[#3D6184] rounded-l-md' type="text" placeholder='Your Email Address' />
               <button className='bg-[#FF4820] px-3 py-4 rounded-r-md '>Get Started</button>
           </div>
           <div className='my-10 flex items-center gap-5 text-white'>

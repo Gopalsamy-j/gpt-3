@@ -35,8 +35,8 @@ const WhatisGpt = () => {
                 <h1 className='mt-6 font-bold text-2xl text-white'>Knowledgebase</h1>
                 <p className='mt-6 font-medium text-base text-[#81AFDD]' >At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
               </div>
-              <div>
-                <Bar className='mt-16 md:mt-0'/>
+              <div className='mt-16 md:mt-0'>
+                <Bar />
                 <h1 className='mt-6 font-bold text-2xl text-white'>Education</h1>
                 <p className='mt-6 font-medium text-base text-[#81AFDD]'>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
               </div>

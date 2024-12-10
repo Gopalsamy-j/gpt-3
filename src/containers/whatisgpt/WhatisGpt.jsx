@@ -19,7 +19,7 @@ const WhatisGpt = () => {
             </div>
             <div className=' md:flex justify-between mt-24 '>
               <h1 className='bg-gradient-to-r from-[#AE67FA] to-[#F49867] ... text-transparent
-          bg-clip-text font-bold text-4xlmd:w-[40%]
+          bg-clip-text font-bold text-4xl md:w-[40%]
           '>The possibilities are beyond your imagination</h1>
               <h2 className='text-[#FF8A71]  font-medium text-base'>Explore The Library</h2>
             </div>
@@ -30,13 +30,13 @@ const WhatisGpt = () => {
                 <h1 className='mt-6 font-bold text-2xl text-white'>Chatbots</h1>
                 <p className='mt-6 font-medium text-base text-[#81AFDD]'>We so opinion friends me message as delight. Whole front do of plate heard oh ought. </p>
               </div>
-              <div>
+              <div className='mt-16 md:mt-0'>
                 <Bar />
                 <h1 className='mt-6 font-bold text-2xl text-white'>Knowledgebase</h1>
                 <p className='mt-6 font-medium text-base text-[#81AFDD]' >At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
               </div>
               <div>
-                <Bar />
+                <Bar className='mt-16 md:mt-0'/>
                 <h1 className='mt-6 font-bold text-2xl text-white'>Education</h1>
                 <p className='mt-6 font-medium text-base text-[#81AFDD]'>At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b</p>
               </div>

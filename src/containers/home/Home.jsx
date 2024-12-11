@@ -6,7 +6,7 @@ import Brand from '../../components/brand/Brand'
 const Home = () => {
   return (
     
-    <div className='bg-gradient-to-r from-[#002853] to-[#040C18] ...'>
+    <div className='bg-gradient-to-r from-[#002853] to-[#040C18] ... pb-10'>
       <div className='md:flex max-w-[90%] m-auto  justify-center'>
         <div className='md:w-[50%] py-20'>
 

@@ -6,6 +6,13 @@ import { Bars3BottomLeftIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
+
+    
+
+
+const closeMenu = () => {
+    setOpen(false);
+} 
     return (
         <div className='bg-gradient-to-r from-[#002853] to-[#040C18] ...'>
             <div className='max-w-[90%] md:flex items-center justify-between  py-5 m-auto' >
@@ -14,7 +21,7 @@ const Navbar = () => {
                 </div>
                 <div className=''>
                     <ul className='hidden md:flex text-lg text-white font-thin gap-5'>
-                        <li><NavLink to=''>Home</NavLink></li>
+                        <li><NavLink to='' >Home</NavLink></li>
                         <li><NavLink to='/whatisgpt'>What is GPT?</NavLink></li>
                         <li><NavLink to='openai'>Open AI</NavLink></li>
                         <li><NavLink to='casestudies'>Case Studies</NavLink></li>
@@ -35,11 +42,11 @@ const Navbar = () => {
                     <div className={`absolute top-0 right-0  bg-[#002853] h-screen  ${open ? 'w-[50%]' : 'w-0'}`}>
                        <div className=' gap-4 px-4'>
                         <ul className={` flex flex-col  gap-4 text-lg text-white font-thin py-10 ${!open && 'hidden'}`} >
-                            <li><NavLink to=''>Home</NavLink></li>
-                            <li><NavLink to='/whatisgpt'>What is GPT?</NavLink></li>
-                            <li><NavLink to='openai'>Open AI</NavLink></li>
-                            <li><NavLink to='casestudies'>Case Studies</NavLink></li>
-                            <li><NavLink to='library'>Library</NavLink></li>
+                            <li><NavLink to='' onClick={closeMenu}>Home</NavLink></li>
+                            <li><NavLink to='/whatisgpt' onClick={closeMenu}>What is GPT?</NavLink></li>
+                            <li><NavLink to='openai'  onClick={closeMenu}>Open AI</NavLink></li>
+                            <li><NavLink to='casestudies' onClick={closeMenu}>Case Studies</NavLink></li>
+                            <li><NavLink to='library' onClick={closeMenu}>Library</NavLink></li>
                             <li>
                                 <button>Sign in</button>
                             </li>

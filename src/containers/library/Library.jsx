@@ -7,14 +7,14 @@ import blog5 from '../../assets/blog05.png'
 
 const Library = () => {
   return (
-    <div className='bg-gradient-to-r from-[#002853] to-[#040C18] py-10'>
+    <div className='bg-gradient-to-r from-[#002853] to-[#040C18] py-10 '>
       <div className='max-w-[90%] m-auto'>
-        <div className='bg-gradient-to-r from-[#AE67FA] to-[#F49867] ... text-transparent
+        <div className='bg-gradient-to-r from-[#AE67FA] to-[#F49867] ... text-transparent 
           bg-clip-text'>
           <p className='font-bold text-5xl'>A lot is happening, <br />
             We are blogging about it.</p>
         </div>
-        <div className='lg:grid grid-cols-3  py-10 gap-5'>
+        <div className='lg:grid grid-cols-3  py-10 gap-5  ' >
           <div className='bg-[#042C54] row-span-2 relative'>
             <img src={blog1} alt="" />
             <p className='font-bold text-xs  text-white py-4 px-4 '>Sep 26, 2021</p>

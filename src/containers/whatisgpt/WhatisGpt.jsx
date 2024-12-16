@@ -3,8 +3,8 @@ import Bar from '../../components/bar/Bar'
 
 const WhatisGpt = () => {
   return (
-    <div className='bg-gradient-to-b from-[#040C18] to-[#0a2441] ... h-screen'>
-      <div className='max-w-[90%] m-auto h-screen'> 
+    <div className='bg-gradient-to-b from-[#040C18] to-[#0a2441] ... h-auto'>
+      <div className='max-w-[90%] m-auto relative'> 
         <div className='lg:absolute top-32 bg-[#002853] p-16 w-[90%] '>
           <div className='md:p-24'>
             <Bar/>
